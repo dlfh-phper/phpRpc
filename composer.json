@@ -1,0 +1,25 @@
+{
+  "name": "dlfh/rpc",
+  "description": "tp框架Rpc包",
+  "type": "library",
+  "require": {
+    "php": ">=7.2",
+    "ext-yar": "*"
+  },
+  "require-dev": {
+    "php": ">=7.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "dlfh",
+      "email": "2247194012@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "rpc\\": "src/"
+    }
+  }
+}
